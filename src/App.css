@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Roboto+Condensed&display=swap');
+#root,html,body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  box-sizing: border-box;
+  font-family: 'Borel', cursive;
+  font-family: 'Roboto Condensed', sans-serif;}
+.container{
+  height: 100%;
+  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/background.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.card{
+  background-color: rgb(219, 221, 188);
+  width: 40%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 25px;
+  padding: 2%;
+  box-shadow: 10px 10px;
+}
+
+.heading{
+  display: flex;
+  align-items: center;
+  height: 580px;
+}
+
+.button{
+  padding: 10px;
+  border-radius: 10px;
+  font-size:20px;
+  font-weight: bold;
+  background-color:goldenrod;
+}
